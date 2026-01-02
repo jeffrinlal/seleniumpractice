@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="seleniumpractice.TestNgrun2"/>
+      <class name="seleniumpractice.TestNgRun"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

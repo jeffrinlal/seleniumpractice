@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="loginURL" value="https://adactinhotelapp.com/"/>
+
+  <groups>
+  <run>
+  <include name="datas"> </include>
+  <exclude name="regression" />
+  </run>
+  </groups>
+    <classes>
+      <class name="seleniumpractice.TestNgrun2"/>
+      <class name="seleniumpractice.TestNgRun"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
